@@ -1,7 +1,7 @@
 
 // ⚠️ IMPORTANT: Replace with your own API key from https://aistudio.google.com/app/apikey
 // The demo key below has rate limits and will stop working after a few requests
-const GOOGLE_API_KEY = "AIzaSyAuC6bZj7uQD67I8C_pVfcQ4eFHoDMfBmA";
+const GOOGLE_API_KEY = "";
 
 // Helper function to delay execution
 const delay = (ms: number) => new Promise(resolve => setTimeout(resolve, ms));
