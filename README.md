@@ -1,45 +1,54 @@
+# 🚀 Code Speak Prep Pro
 
+This project uses API keys for integration with different services.
 
+The API keys are stored directly inside the project for simplicity.  
+If you want to change or update them, open the following files:
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
+- `src/lib/google.ts` → contains the **Google API key**
+- `src/lib/openai.ts` → contains the **OpenAI API key**
 
-Follow these steps:
+Replace the existing keys with your own inside these files, for example:
 
-```sh
-# Step 1: Clone the repository using the project's Git URL.
+```ts
+// src/lib/google.ts
+export const GOOGLE_API_KEY = "your-google-api-key-here";
+
+// src/lib/openai.ts
+export const OPENAI_API_KEY = "your-openai-api-key-here";
+**Code Speak Prep Pro** is a full-stack web application that helps users prepare for technical interviews using **AI-powered HR interview practice** and **Data Structures & Algorithms (DSA)** challenges.  
+It is built using **React**, **TypeScript**, **Vite**, **Tailwind CSS**, and **shadcn-ui** for a clean, modern, and fast development experience.
+
+---
+
+## 🧠 About the Project
+
+This project allows users to:
+- Practice HR interviews using AI-based voice interactions
+- Solve DSA questions and coding problems in a structured interface
+- Experience a real-time preview and instant feedback system
+- Learn with a clean and responsive UI design
+
+It integrates **Google** and **OpenAI APIs** for generative AI, speech, and natural language functionalities.
+
+---
+
+## ⚙️ Installation & Setup Guide
+
+Before running the project, make sure **Node.js** and **npm** are installed on your system.  
+If not, install them using [nvm (Node Version Manager)](https://github.com/nvm-sh/nvm#installing-and-updating).
+
+Follow these steps to set up and run the project locally:
+
+```bash
+# Step 1: Clone this repository using your Git URL
 git clone <YOUR_GIT_URL>
 
-# Step 2: Navigate to the project directory.
+# Step 2: Navigate into the project folder
 cd <YOUR_PROJECT_NAME>
 
-# Step 3: Install the necessary dependencies.
+# Step 3: Install all dependencies
 npm i
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Step 4: Start the development server
 npm run dev
-```
-
-**Edit a file directly in GitHub**
-
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
-
-**Use GitHub Codespaces**
-
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
-
-## What technologies are used for this project?
-
-This project is built with:
-
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
-
