@@ -1,12 +1,14 @@
 # 🚀 Code Speak Prep Pro
 
-This project uses API keys for integration with different services.
+This project primarily uses the **Google API key** for all main functionalities such as AI-based responses, speech processing, and other integrations.  
+The **OpenAI API key** is included only as a backup option but is currently **not in use** or may not work properly in this version.
 
-The API keys are stored directly inside the project for simplicity.  
+All API keys are stored directly inside the project for simplicity.  
 If you want to change or update them, open the following files:
 
-- `src/lib/google.ts` → contains the **Google API key**
-- `src/lib/openai.ts` → contains the **OpenAI API key**
+- `src/lib/google.ts` → contains the **Google API key** *(main key used in the project)*  
+- `src/lib/openai.ts` → contains the **OpenAI API key** *(backup key, not currently active)*
+
 
 Replace the existing keys with your own inside these files, for example:
 
